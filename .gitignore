@@ -1,0 +1,14 @@
+# Proteger datos y modelos entrenados (manteniendo la estructura de carpetas)
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
+# Archivos temporales y entornos de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
